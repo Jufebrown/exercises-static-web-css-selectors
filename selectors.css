@@ -1,0 +1,20 @@
+header {
+	border: 1px solid black;
+}
+
+header ul {
+	list-style: none;
+}
+
+header ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.disabled {
+	color: gray;
+}
+
+a {
+	color: purple;
+} 
