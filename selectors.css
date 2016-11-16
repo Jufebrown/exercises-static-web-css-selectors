@@ -11,10 +11,44 @@ header ul li {
 	padding: 5px;
 }
 
-.disabled {
+.disabled not a{
 	color: gray;
 }
 
 a {
 	color: purple;
 } 
+
+.active {
+	color: yellow;
+}
+
+#red {
+	color: red;
+}
+
+#blue {
+	color: blue;
+}
+
+#red + h4 {
+	background-color: red;
+}
+
+#blue + h4 {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+input[type="text"] {
+	height: 25px;
+}
